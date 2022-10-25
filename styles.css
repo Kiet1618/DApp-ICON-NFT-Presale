@@ -1,0 +1,90 @@
+
+
+/* 
+overflow hidden nếu cần
+.row::after{
+    content:"";
+    display: block;
+    clear:both;
+} */
+
+
+/*main*/
+.NFT{
+    display: inline-block;
+    width: 300px;
+    margin-bottom: 50px;
+    /* margin-left:15%; */
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.NFT button{
+    width: 300px;
+}
+button{
+    cursor: pointer;
+}
+
+#address-contract{
+    width:450px;
+    float: right;
+}
+#header {
+    height: 120px;
+    background-color: #757575;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+
+}
+#header ul div{
+    display: inline-block;
+}
+
+
+
+#anh2 {
+    margin-left: 60px;
+}
+
+body {
+    padding: 20px;
+    font-size: large;
+}
+
+input, button {
+    padding: 10px;
+    font-size: large;
+}
+
+.main {
+    margin-top: 90px;
+    display: flex;
+    height: 1000px;
+}
+#nav {
+    position: fixed;
+    left: 0;
+    width: 20%;
+    height: 100%;
+    background-color: #ccc;
+
+}
+#nav button{
+    margin-top: 20px;
+    margin-left: 16%;
+    width: 200px;
+}
+
+.content{
+    width: 80%;
+    margin-left: 20%;
+    display: inline-block;
+}
+#nav input{
+    margin-top: 5px;
+    margin-left: 16%;
+    width: 200px;
+}
