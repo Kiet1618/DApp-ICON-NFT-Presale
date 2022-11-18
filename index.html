@@ -18,7 +18,7 @@
             <img id="anh2" src="img/Iconpng.png" alt="" height="80px">
             <div id="address-contract">
                 <th>Address contract</th>
-                <input id="contract-address" value="cx490cc4ba759fa244e3b236d7778b32bcf56e3eb1" style="width: 420px;" /> 
+                <input id="contract-address" value="cx41b33e8ed8418fd086bb3032e7a0535444cd3aa1" style="width: 420px;" /> 
                 <div id="token-result"></div> 
             </div>
             
@@ -129,8 +129,8 @@
                             to: document.getElementById('contract-address').value,   // SCORE address
                             dataType: "call",
                             data: {
-                                method: "buy", // SCORE external function
-                                params: { _tokenId: "1" }
+                                method: "mintURI", // SCORE external function
+                                params: { _tokenId: "1", _data : "https://drive.google.com/file/d/1YkBwKLpbYxfl7IN0jGaEVdUGFAyMghLc/preview" }
                             }
                         }
                     }
@@ -171,8 +171,8 @@
                             to: document.getElementById('contract-address').value,   // SCORE address
                             dataType: "call",
                             data: {
-                                method: "buy", // SCORE external function
-                                params: { _tokenId: "2" }
+                                method: "mintURI", // SCORE external function
+                                params: { _tokenId: "2", _data : "https://drive.google.com/file/d/1MWQ4lX9wQ7P0QZD8ExEBSSRUZaNVCdMX/preview" }
                             }
                         }
                     }
@@ -212,8 +212,8 @@
                             to: document.getElementById('contract-address').value,   // SCORE address
                             dataType: "call",
                             data: {
-                                method: "buy", // SCORE external function
-                                params: { _tokenId: "3" }
+                                method: "mintURI", // SCORE external function
+                                params: { _tokenId: "3", _data : "https://drive.google.com/file/d/1BDjyScPNGb2L3fX_4rQwytD8LIciHXSm/preview" }
                             }
                         }
                     }
@@ -253,8 +253,8 @@
                             to: document.getElementById('contract-address').value,   // SCORE address
                             dataType: "call",
                             data: {
-                                method: "buy", // SCORE external function
-                                params: { _tokenId: "4" }
+                                method: "mintURI", // SCORE external function
+                                params: { _tokenId: "4", _data: "https://drive.google.com/file/d/1CAcUvUN2XFjCsNE7zSIxgvhnW9SXfgn2/preview" }
                             }
                         }
                     }
@@ -297,8 +297,8 @@
                             to: document.getElementById('contract-address').value,   // SCORE address
                             dataType: "call",
                             data: {
-                                method: "tokenURI", // SCORE external function
-                                params: { tokenId: document.getElementById('token').value }
+                                method: "_tokenURI", // SCORE external function
+                                params: { _tokenId: document.getElementById('token').value }
                             }
                         }
                     }
